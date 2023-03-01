@@ -1,4 +1,4 @@
-user_choice = input("enter l(login) or q(quit): ")
+# user_choice = input("enter l(login) or q(quit): ")
 
 
 # while user_choice != "q":
