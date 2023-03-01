@@ -1,3 +1,5 @@
+# this is (porgram=)nested_if_statements02 copy but add functions
+
 MENU = "l) Login, q) Quit"
 # MENU is in caps, and it means it's a CONSTANT
 # The CONSTANT is a variable that never changes its value
@@ -7,7 +9,11 @@ valid_username = "eve"
 valid_password = "123"
 user_choice = input("Choose [l/q]: ")
 
-if user_choice == "l":
+
+# this is a function
+# select the praogram then right_click->refractor->extract_method-> then name it DONE
+#ctrl + -  =minimize only for def(definition)
+def login():
     print(input("enter your name:"))
     print("logging in....")
     entered_username = input("enter your username: ")
@@ -18,6 +24,11 @@ if user_choice == "l":
         print("WELCOME")
     else:
         print("error")
+
+
+# the program starts here
+if user_choice == "l":
+    login()
 
 elif user_choice == "q":
     print("quitting program...")
