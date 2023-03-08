@@ -1,4 +1,4 @@
-# this is (porgram=)nested_if_statements02 copy but add functions
+# this is (program=)nested_if_statements02 copy but add functions
 
 MENU = "l) Login, q) Quit"
 # MENU is in caps, and it means it's a CONSTANT
@@ -11,8 +11,8 @@ user_choice = input("Choose [l/q]: ")
 
 
 # this is a function
-# select the praogram then right_click->refractor->extract_method-> then name it DONE
-#ctrl + -  =minimize only for def(definition)
+# select the program then right_click->refactor->extract_method-> then name it DONE
+# ctrl + -  =minimize only for def(definition)
 def login():
     print(input("enter your name:"))
     print("logging in....")

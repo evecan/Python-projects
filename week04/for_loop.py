@@ -8,14 +8,14 @@ for car in cars:
 for times in range(3):
     print("hello\nHow are you?")  # \n=enter
 
-# goes horrizontally
+# goes horizontally
 for letter in range(10):
     # can add something behind x by typing in end
     print("x", end="")
 
 word = input("\nenter a word:")
 
-#ctrl+- = minimize only works for def(definition)
+# ctrl + - = minimize only works for def(definition)
 def a_to_h():
     if letter == "a":
         print("the letter a was found in you word")
